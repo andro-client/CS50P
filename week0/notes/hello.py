@@ -28,8 +28,6 @@ name = name.strip().title()
 aa, last = name.split(" ")
 print(aa)
 
-""" end="" makes it so print by default doesn't skip to the next line
- you can insert variables in a few different ways, with a + sign and with a ,
- inserting a variable with a , produces a blank space in print function
- because it automatically comes with a parameter sep=" " (separator) """
+# end="" makes it so print by default doesn't skip to the next line
+# sep="" provides a separator between the string and inserted variables with a ,
 print("Nice to meet you", name, end=".", sep="...")
